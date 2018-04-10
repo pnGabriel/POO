@@ -128,6 +128,7 @@
     <ClCompile Include="dreptunghiRotit.cpp" />
     <ClCompile Include="forma.cpp" />
     <ClCompile Include="forme.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="oval.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

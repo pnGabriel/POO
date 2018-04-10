@@ -1,15 +1,12 @@
 #pragma once
 #ifndef FORMA_H
 #define FORMA_H
-#include "forme.h"
-#include <list>
+#include <string>
+#include<iostream>
 
-class Forma : public Forme {
-private:
-	std::list<Forme*> list;
+class Forma {
 public:
-	void Print();
-	void Add(Forma*);
+	virtual void Paint() = 0;
 };
 
 #endif // !FORMA_H

@@ -2,10 +2,15 @@
 #ifndef FORME_H
 #define FORME_H
 
-class Forme {
-public:
-	virtual void Paint() = 0;
-};
+#include "forma.h"
+#include <list>
 
+class Forme : public Forma {
+private:
+	std::list<Forma*> list;
+public:
+	void Paint();
+	void Add(Forma*);
+};
 #endif // !FORME_H
 
